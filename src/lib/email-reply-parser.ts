@@ -1,6 +1,6 @@
 import { EmailParser } from './email-parser.ts';
 
-export default class EmailReplyParser {
+export class EmailReplyParser {
   read(text: string) {
     return new EmailParser().parse(text);
   }

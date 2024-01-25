@@ -1,5 +1,5 @@
 import { assertEquals } from '$std/assert/assert_equals.ts';
-import EmailReplyParser from '../lib/email-reply-parser.ts';
+import { EmailReplyParser } from '../lib/email-reply-parser.ts';
 import { fixtures } from './fixtures.ts';
 
 const COMMON_FIRST_FRAGMENT =
