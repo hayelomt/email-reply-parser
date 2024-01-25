@@ -16,7 +16,7 @@ This library is used at [Crisp](https://crisp.chat/) everyday with around 1 mill
 ## Usage
 
 ```typescript
-var email = new EmailReplyParser().read(MY_EMAIL_STRING);
+const email = new EmailReplyParser().read(MY_EMAIL_STRING);
 
 console.log(email.getVisibleText());
 ```
